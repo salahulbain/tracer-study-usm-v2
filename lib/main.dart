@@ -21,10 +21,10 @@ class _WebViewAppState extends State<WebViewApp> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('E-SIMPATIGU V1'),
+        title: const Text('Tracer Study USM V1'),
       ),
       body: const WebView(
-        initialUrl: 'https://e-simpatigu.masuk.id/login',
+        initialUrl: 'http://tracerstudy.serambimekkah.ac.id/masuk.html',
         javascriptMode: JavascriptMode.unrestricted,
       ),
     );
